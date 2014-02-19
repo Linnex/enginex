@@ -1,5 +1,6 @@
 
 .DS_Store
+dev/production.conf
 
 # exclude .htaccess file used in dev environment
 /.htaccess
