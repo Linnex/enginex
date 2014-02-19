@@ -1,0 +1,328 @@
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: inline-block; clear: both; }
+/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+#span12_full .span12 {
+	width:100%;
+}
+#span6_full{
+	float:left;
+	margin:0 0 0 10px;
+}
+#register_tabs {
+	border-bottom: 1px solid #dddddd;
+	padding: 0 12px;
+	cursor: pointer;
+	margin:20px 0 0 0;
+}
+.register_eachtab {
+	color:#a7a7a7;
+	text-transform: uppercase;
+	font-size:14px;
+	float:left;
+	padding:11px 13px;
+	margin:0 0 -1px 0;
+}
+.register_activetab {
+	border-bottom:1px solid #fff;
+	border-top:1px solid #dddddd;
+	border-left:1px solid #dddddd;
+	border-right:1px solid #dddddd;
+	color:#00aeef;
+	cursor: default;
+}
+.register_info {
+	font-size: 13px;
+	color:#7e7e7e;
+	width:100%;
+	font-family: Arial;
+	padding: 0;
+	margin:10px 0 45px 0;
+}
+#sub-borrower, #sub-lender {
+	padding:10px 0 65px 0;
+}
+.formTitle {
+	font-size:14px;
+	margin-bottom:20px;
+}
+#sub-borrower label,
+#sub-lender label {
+	font-size: 13px;
+	color:#7e7e7e;
+	width:100%;
+	font-family: Arial;
+	margin-bottom: 5px;
+}
+#sub-borrower input, 
+#sub-lender input {
+	background-color:#f8f8f8;
+	box-shadow:none;
+	width:98%;
+	margin-bottom: 10px;
+}
+#sub-borrower input:focus,
+#sub-lender input:focus {
+	border-color:#e5e5e5;
+}
+.holder_342 {
+	width:342px;
+}
+.holder_522 {
+	width:522px;
+}
+.holder_645 {
+	width:645px;
+}
+.blue_color {
+	color:#00aeef;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.arrow_hider {
+   width: 342px;
+   overflow: hidden;
+}
+.arrow_hider .custom_select {
+   width: 120%; 
+   height: 30px;
+   background: url('images/selectbox_small.png') no-repeat 0 0;
+   background-color: transparent;
+   border: 0;
+   padding: 0;
+   -webkit-appearance: none;
+   box-shadow: none;
+}
+.arrow_hider_big {
+	width:522px;
+	overflow:hidden;
+	clear:both;
+}
+.arrow_hider_big .custom_select {
+   width: 120%; 
+   height: 30px;
+   background: url('images/selectbox_big.png') no-repeat 0 0;
+   background-color: transparent;
+   border: 0;
+   padding: 0;
+   -webkit-appearance: none;
+   box-shadow: none;
+}
+#sub-borrower .customfiletype,
+#sub-lender .customfiletype {
+	background:url(images/upload_bg.png) no-repeat 0 0 transparent;
+	height:142px;
+	width:142px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	border:none;
+	position: relative;
+	text-align:center;
+	text-transform: uppercase;
+	color:#03afef;
+	font-size:19px; 
+}
+#sub-borrower .customfiletype span,
+#sub-lender .customfiletype span {
+	position: absolute;
+	bottom:20px;
+	left:0px;
+	width:88%;
+	padding: 0 6%;
+}
+#bphoto_file {
+	margin:12px 0;
+}
+.selectPhoto{
+	clear:both;
+	margin:10px 0 0 !important;
+}
+#sub-borrower hr,
+#sub-lender hr {
+	margin:19px 0;
+}
+#sub-borrower textarea,
+#sub-lender textarea {
+    resize: none;
+    width:98%;
+    height:120px;
+    background-color:#f8f8f8;
+    border:1px solid #e5e5e5;
+    box-shadow:none;
+    margin-bottom: 10px;
+}
+#sub-borrower textarea:focus,
+#sub-lender textarea:focus {
+	border-color:#e5e5e5;
+	box-shadow:none;
+}
+#submit_btn, #borrowersubmitform {
+	width:241px!important;
+	float:left;
+	font-size:15px;
+	text-transform: uppercase;
+	color:#fff;
+	padding:11px 0;
+	text-align: center;
+	border:none;
+	background-image: none;
+	margin:0 20px 0 0;
+	text-shadow:none;
+	font-family: Arial;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#submit_btn {
+	background-color:#00aeef!important;
+}
+#borrowersubmitform {
+	background-color: #b0afaf!important;
+}
+.red {
+	color: rgb(255, 0, 0);
+}
+.radio_s {
+	margin-right: 20px;
+	margin-bottom: 15px;
+	float: left;
+}
+.radio_s span {
+	margin-top: 3px;
+	margin-left: 5px;
+	color: #7e7e7e;
+}
+.radio_s input {
+	float:left;
+}
+.radio_s input[type="radio"],
+.radio_s input[type="radio"] {
+	width:auto!important;
+}
+#lender_submit_btn {
+	float:left;
+	font-size:15px;
+	text-transform: uppercase;
+	color:#fff;
+	padding:10px 12px;
+	border:none;
+	background-image: none;
+	margin:0 20px 0 0;
+	text-shadow:none;
+	font-family: Arial;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #ff8b00!important;
+	width:auto!important;
+	clear: both;
+}
+.no_left.radio_s{
+	clear: both;
+	margin-bottom: 0px;
+}
+/* START - Terms of use */
+	#agree{
+		width:20px !important;
+		position:relative;
+		top:2px;
+	}
+	.terms_of_use{
+		margin-bottom:0;
+	}
+	.terms_of_use_modal{
+		margin-bottom:20px;
+		font-size:20px;
+	}
+	.terms_of_use_action{
+		color:#0099FF;
+		text-decoration: underline;
+		cursor:pointer;
+		width:auto !important;
+	}
+	.radio_group{
+		clear:both;
+	}
+/* END - Terms of use */
+
+/* START - Facebook login page */
+	.title{
+		padding:20px;
+		margin:0 0 20px;
+		border-bottom:1px solid #dfdcdc;
+	}
+	.custom_login div{
+		float:left;
+	}
+	.heading{
+		color:#0099FF;
+		font-size:20px;
+	}
+	.facebook_button{
+		display:block;
+		margin:25px 0 0;
+	}
+	.login_fb{
+		width:280px;
+		padding:0 20px;
+		margin:11px 0 0;
+	}
+	.separator{
+		width:42px;
+	}
+	.separator .line{
+		width:1px;
+		background:#dfdcdc;
+		height:174px;
+		margin-left:20px;
+	}
+	.separator .circle{
+		border-radius:30px;
+		border:1px solid #dfdcdc;
+		width:40px;
+		height:40px;
+		text-align:center;
+		line-height:40px;
+	}
+	.default_login{
+		width:280px;
+		padding:0 20px;
+		margin:11px 0 0;
+	}
+	.default_login_form p{
+		margin:22px 0;
+	}
+	.default_login_form p.custom_margin{
+		margin:10px 0;
+	}
+	.remove_bottom_margin{
+		margin:0 !important;
+	}
+	.default_login_form .square{
+		width:246px;
+		border-radius:5px;
+	}
+	.default_login_form input[type=text], .default_login_form input[type=password]{
+		width:239px;
+	}
+	#basic-modal-content .default_login_form{
+		width:249px;
+		margin:0 auto;
+	}
+	#basic-modal-content .heading{
+		width:249px;
+		margin:0 auto;
+	}
+	#basic-modal-content .errors{
+		width:249px;
+		margin:12px auto;
+	}
+	.checkbox{
+		font-size:12px;
+		font-family:inherit;
+		line-height:21px;
+		padding:0px;
+	}
+	.checkbox input{
+		float:left;
+	}
+/* END - Facebook login page */

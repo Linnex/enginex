@@ -1,0 +1,13 @@
+
+.DS_Store
+
+# exclude .htaccess file used in dev environment
+/.htaccess
+
+*.htaccess
+
+library/constant.php
+zidisha_contents/
+
+extlibs/smarty/templates_c/
+extlibs/smarty/cache/
